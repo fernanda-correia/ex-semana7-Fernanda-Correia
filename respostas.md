@@ -245,7 +245,7 @@ iniciar
 se (idade < 16)
     então resposta <- "não pode votar!"
 
-se (idade > 16 e idade <18)
+se (idade >= 16 e idade <18)
     então resposta <- " voto facultativo"
 se não
     então resposta <- "voto obrigatório"
