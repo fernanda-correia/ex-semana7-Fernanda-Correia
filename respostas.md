@@ -235,7 +235,7 @@ ______
 
 algoritmo "votar.js"
 
-função idadeVoto {
+função idadeVoto (idade) {
 var 
     resposta: string
     idade: inteiro = prompt ("insira sua idade")
