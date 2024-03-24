@@ -232,7 +232,6 @@ ______
 
 
 ```
-
 var 
     resposta: string
     idade: inteiro = prompt ("insira sua idade")
