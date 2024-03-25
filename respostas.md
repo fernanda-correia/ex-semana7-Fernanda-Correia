@@ -274,6 +274,43 @@ Classe FormaGeometrica:
 
 ```
 
+```
+
+algoritmo "formas.js" 
+
+classe FormaGeometrica {
+    construtor (cor) {
+    this.cor <- cor }
+}
+
+classe Retangulo recebe de classe FormaGeometrica{
+    construtor (cor, base, altura) {
+    recebe (cor)
+    this.base <- base
+    this.altura <- altura
+}
+
+metodo calcularArea (){
+    var areaRetangulo = this.base vezes this.altura
+    retorne areaRetangulo
+}
+}
+
+classe Circulo recebe de classe FormaGeometrica {
+    construtor (cor, pi, raio){
+    recebe (cor)
+    this.pi <- pi
+    this.raio < - raio
+}
+
+metodo calcularArea (){
+    var areaCirculo = this.pi vezes this.raio vezes this.raio
+    retorne areaCirculo
+}
+}
+
+```
+
 ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
